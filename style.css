@@ -9,7 +9,8 @@ html, body {
   width: 100%;
 }
 
-.card-deck2 {
+.card-deck2,
+.topnav {
   display: none;
 }
 
@@ -169,7 +170,7 @@ html, body {
     
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("index-bilder/wp2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("index-bilder/newestheroimg.png");
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -336,6 +337,10 @@ footer {
 /* XS mobile */
 
 @media screen and (max-width: 321px) {
+  bs-nav {
+    display: flex;
+  }
+
   #wrapper {
     width: 100%;
     height: 100%;
@@ -349,14 +354,19 @@ footer {
   .navigation,
   .main,
   .card-deck2,
-  .annoying-header-btn-div {
+  .annoying-header-btn-div,
+  .header-flexbox-1,
+  .header-flexbox-2,
+  .logga-img {
     display: none;
   }
+
+
   
-  .header-flexbox-1 {
+ /*  .header-flexbox-1 {
     width: 100%;
     align-self: center;
-  }
+  } */
 
 /*   #wrapper {
     display: block;
@@ -441,71 +451,24 @@ footer {
 
 /* Ipad Portrait */
 @media only screen and (max-width: 960px) and (min-width: 769px) {
-
-  .navigation,
-  .main,
-  .annoying-header-btn-div {
-    display: none;
-  }
-
-  .header-flexbox-1 {
-    width: 100%;
-    align-self: center;
-  }
-
- 
-
   
-    
-
-/*   #wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      justify-content: center;
-      
-  } */
-
-
   .hero {
       background-size:cover;
       object-fit: cover;
+      box-shadow: none;
   }
 
- /*  .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-
-  .card {
-    width: 50%;
-  } */
 
 }
 
-
-/* lg */
-
-/* @media only screen and (max-width: 1200px) and (min-width: 960px) {
-  .logga.img {
-      width: 80%;
-      margin-bottom: 6px;
-  }
-}
- */
-
-/*@media screen and ( max-width: 1201px) {*/
-  /* card deck display 2 in row */
- /* .card-deck {
-
-  }
-}*/
 
 
 @media only screen and (min-width: 771px) and (max-width: 1220px) {
+  
+
   .card-deck,
-  .annoying-header-btn-div {
+  .annoying-header-btn-div
+   {
     display: none;
   }
 
@@ -522,7 +485,8 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 2% 0% 6% 0%;
-    background-color: #011729ea;
+    background-color:#011729ea;
+    
   }
 
   
@@ -531,13 +495,91 @@ footer {
   }
 }
 
+
+
+/****All SMALLER SCREENS****/
+
+@media screen and ( max-width: 960px) {
+
+  .hero {
+    box-shadow: none;
+  }
   
 
+  .logga-img,
+  .header-flexbox-1,
+  .header-flexbox-2 {
+    display: none;
+  }
+
+  
+  .header {
+    margin-top: 0%;
+    height:auto;
+  }
+
+.logga-image {
+  width: 100%;
+
+}
+
+.a-class {
+  width: 40%;
+ 
+}
+
+.topnav {
+  display: block;
+  width: 100%;
+  color:white;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
 
 
+.topnav a {
+  color:black;
+  background-color: white;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  
+}
+
+.topnav a.icon {
+  background-color: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* .topnav a:hover {
+  background-color: white;
+  color: black;
+} */
+
+.active {
+  background-color:#011729;
+  color: white;
+  height: 200px;
+}
 
 
+  .navigation,
+  .main,
+  .annoying-header-btn-div {
+    display: none;
+  }
 
+ 
+}
 
 
 
