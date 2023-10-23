@@ -415,7 +415,7 @@ footer {
 
 /* XS mobile */
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 489.9px) {
   bs-nav {
     display: flex;
   }
@@ -429,7 +429,7 @@ footer {
 
 /* Mobile */
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 490px){
   .navigation,
   .main,
   .card-deck2,
@@ -454,7 +454,7 @@ footer {
     
     
 } */
-
+/* 
   .card-deck {
     flex-direction: column;
     width: 100%;
@@ -522,7 +522,7 @@ footer {
       height: 33%;
       padding: 0;
   
-    }
+    } */
 
 }
 
@@ -541,8 +541,7 @@ footer {
 }
 
 
-
-@media only screen and (min-width: 771px) and (max-width: 1220px) {
+@media only screen and (max-width: 1120px) and (min-width: 961px) {
   
 
   .card-deck,
