@@ -278,11 +278,20 @@ html, body {
     transform: scale(1.1);
   }
   
-  .discount {
-      color: red;
-      font-weight: bold;
+.forsale-card-title {
+  font-weight: bold;
+  }
+
+  .readmore {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   
+  .discount {
+    color: red;
+    font-weight: bold;
+}
   /* MAIN */
 
 .main {
