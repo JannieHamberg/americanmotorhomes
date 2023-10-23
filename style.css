@@ -445,6 +445,10 @@ footer {
    
   }
 
+  .card-deck-h2 {
+    font-size: 18px;
+  }
+
   .main {
     flex-direction: column;
     align-items: center;
@@ -459,6 +463,10 @@ footer {
 
   .main-section-2 {
     height: auto;
+  }
+
+  .card {
+    margin-top: 7%;
   }
 }
 
@@ -732,6 +740,11 @@ footer {
   background-color:#011729;
   color: white;
   height: 200px;
+}
+
+.card-deck-h2 {
+  margin-bottom: 4%;
+
 }
 }
 
