@@ -445,8 +445,9 @@ footer {
    
   }
 
-  .card-deck-h2 {
-    font-size: 18px;
+  .card-deck-h2,
+  main-section-h2 {
+    font-size: 23px;
   }
 
   .main {
@@ -463,6 +464,13 @@ footer {
 
   .main-section-2 {
     height: auto;
+  }
+
+  .main-btn {
+    width: 130px;
+    height: 34px;
+    padding: 24px;
+    font-size: 20px;
   }
 
   .card {
@@ -499,6 +507,10 @@ footer {
     height: auto;
   }
 
+  .card-deck-h2,
+  main-section-h2 {
+    font-size: 24px;
+  }
   
  /*  .header-flexbox-1 {
     width: 100%;
@@ -742,10 +754,7 @@ footer {
   height: 200px;
 }
 
-.card-deck-h2 {
-  margin-bottom: 4%;
 
-}
 }
 
 
