@@ -716,6 +716,11 @@ footer {
   margin-top: 2%;
   cursor: none;
 }
+
+.main-img-1.zoom {
+  transform: none;
+}
+
 .a-class {
   width: 40%;
  
