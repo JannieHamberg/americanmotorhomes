@@ -365,14 +365,13 @@ html, body {
     margin: 2% auto;
     display: flex;
     flex-direction: column;
+    background-color: #011729;
 
 }
 
 .main-section-1 {
     align-self: center;
-    justify-self: center;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: center;
     width: 60%;
     display: flex;
 }
@@ -411,10 +410,14 @@ html, body {
 
 
 .main-img-1  {
-  width: 100%;
+  width: 50%;
   object-fit:contain;
   height: auto;
-  margin-top: 2%;
+  align-self: center;
+  justify-self: center;
+  margin-top: 4%;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 footer {
@@ -502,6 +505,8 @@ footer {
     align-self: center;
     width: 90%;
   }
+
+
 
   .main-section-2 {
     height: auto;
@@ -706,6 +711,11 @@ footer {
 
 }
 
+.main-img-1  {
+  width: 100%;
+  margin-top: 2%;
+  cursor: none;
+}
 .a-class {
   width: 40%;
  
