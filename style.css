@@ -20,7 +20,7 @@ html, body {
 
 #wrapper {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
     /* display:flex;
     flex-wrap: wrap;
@@ -517,87 +517,6 @@ footer {
     font-size: 24px;
   }
   
- /*  .header-flexbox-1 {
-    width: 100%;
-    align-self: center;
-  } */
-
-/*   #wrapper {
-    display: block;
-    width: 100vw;
-    justify-content: center;
-    
-    
-} */
-/* 
-  .card-deck {
-    flex-direction: column;
-    width: 100%;
-    height:fit-content;
-    margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
-    justify-items: center;
-    padding: 0;
-     
-    
-    
-  }
-  .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    box-sizing: border-box;
-    margin-right: 0;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 33%;
-    padding: 0;
-
-  }
-  .flex-container {
-    flex-direction: column;
-    max-width: 100%;
-    height:fit-content;
-    margin-top: 10%;
-    margin-left: 0;
-    margin-right: 0;
-    justify-items: center;
-    padding: 0;
-    
-    
-    
-  }
-  .item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 33%;
-    padding: 0;
-    
-  }
-  .hero_text {
-    font-size: 40px;
-     
-     
-     
-   }
-   .flex-container-2 {
-    display: none;
-      
-    }
-  .flex-item-4 {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 100%;
-      height: 33%;
-      padding: 0;
-  
-    } */
 
 }
 
@@ -776,14 +695,17 @@ footer {
 }
 
 
-/* @media screen and (max-width: 1300px){
-  .main-section-p-1 {
-    font-size: min(13px, 28vw);
-  }
+.carousel-item {
+  height: 300px; /* Set a fixed height */
+  background-color: white;
 }
- */
 
-
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Images will scale to fit without cropping */
+  margin: 0 auto; /* Center the image horizontally */
+}
 
 
 
