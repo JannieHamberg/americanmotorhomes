@@ -13,7 +13,7 @@ html, body {
 }
 
 
-.card-deck2,
+/* .card-deck2, */
 .topnav {
   display: none;
 }
@@ -28,15 +28,26 @@ html, body {
     align-items: center; */
 }
 
+
+.carousel-item {
+  height: 300px; 
+  background-color: white;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  margin: 0 auto; 
+}
+
+
 /* Own creation navbar */
 
 .header {
-  /* justify-content: flex-start;
-  align-self: flex-start; */
   display: flex;
   flex-wrap: wrap;
   width: 100%;
- /*  height: 20%; */
   height: 200px;
   margin-top: 1%;
   background-color: white;
@@ -57,14 +68,10 @@ html, body {
   width: 100%;
   border-radius: 4px;
   height: 10%;
- /*  margin: 1% 0% 0% 16%;
-  object-fit:scale-down; */
-
 }
 
 .annoying-header-btn-div {
   width: 100%;
- 
 }
 
 .header-flexbox-2 {
@@ -72,14 +79,10 @@ html, body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
- /*  margin-top: 1%; */
-
 }
 
 .header-btn-item {
   align-self: flex-start;
-   
-
 }
 
 .navigation {
@@ -206,9 +209,6 @@ html, body {
   margin-top: 1%;
   width: 100%;
   background-color: #011729ea;
-  
-  
-  
 }
 
 
@@ -222,9 +222,6 @@ html, body {
   box-sizing: border-box;
   background-color: white;
   box-shadow: 0px 10px 9px -3px #AEAFAA;
-  /*display:flex;
-  justify-content: center;
-  align-items: center;*/
 }
 
 
@@ -232,12 +229,9 @@ html, body {
     color:#052947ef;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 8% 0% 0% 1%;
-    /* display: block; */
+   
 }
 
-/* .card-deck-h2 {
-  display: block;
-} */
 
 /* cards*/
 
@@ -485,7 +479,6 @@ footer {
 
 @media only screen and (max-width: 768px) and (min-width: 490px){
   .navigation,
-  .card-deck2,
   .annoying-header-btn-div,
   .header-flexbox-1,
   .header-flexbox-2,
@@ -554,7 +547,6 @@ footer {
 @media only screen and (max-width: 1120px) and (min-width: 961px) {
   
 
-  .card-deck,
   .annoying-header-btn-div
    {
     display: none;
@@ -566,7 +558,7 @@ footer {
     margin: 0;
   }
 
-  .card-deck2 {
+/*   .card-deck2 {
     display: flex;
     flex-shrink: 0;
     flex-wrap: wrap;
@@ -575,7 +567,7 @@ footer {
     margin: 2% 0% 6% 0%;
     background-color:#011729ea;
     
-  }
+  } */
 
   
   .card-img2 {
@@ -681,11 +673,6 @@ footer {
   top: 0;
 }
 
-/* .topnav a:hover {
-  background-color: white;
-  color: black;
-} */
-
 .active {
   background-color:#011729;
   color: white;
@@ -699,17 +686,6 @@ footer {
 }
 
 
-.carousel-item {
-  height: 300px; /* Set a fixed height */
-  background-color: white;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* Images will scale to fit without cropping */
-  margin: 0 auto; /* Center the image horizontally */
-}
 
 
 
