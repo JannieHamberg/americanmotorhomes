@@ -609,6 +609,10 @@ footer {
   .hero {
     box-shadow: none;
   }
+
+  .hero_text {
+    font-size: 40px;
+  }
   
 
   .logga-img,
