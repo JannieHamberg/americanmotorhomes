@@ -201,6 +201,15 @@ html, body {
   color: white;
 }
 
+.w3-animate-fading {
+  animation: fading 20s infinite;
+}
+
+@keyframes fading {
+  0%, 100% {opacity: 0;}
+  50% {opacity: 1;}
+}
+
 .flex-container {
   display: flex;
   align-items: center;
