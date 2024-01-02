@@ -130,7 +130,7 @@ html, body {
 .navigation .nav-ul .nav-li a {
   padding: 10px;
   text-decoration: none;
-  color:#011729;
+  color:#011729ea;
 }
 
 .a-hover {
@@ -369,7 +369,7 @@ html, body {
     margin: 2% auto;
     display: flex;
     flex-direction: column;
-    background-color: #011729;
+    background-color: #011729ea;
 
 }
 
@@ -385,7 +385,6 @@ html, body {
   justify-self: center;
     width: 60%;
     padding: 0px 30px 30px 30px;
-    background-color: #011729ea;
     color: white;
 
 }
@@ -407,7 +406,6 @@ html, body {
   font-size: 18px;
   margin-top: 4%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 #more {
@@ -570,18 +568,6 @@ footer {
     align-self: center;
     margin: 0;
   }
-
-/*   .card-deck2 {
-    display: flex;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 2% 0% 6% 0%;
-    background-color:#011729ea;
-    
-  } */
-
   
   .card-img2 {
     height: 33%;
@@ -693,7 +679,7 @@ footer {
 }
 
 .active {
-  background-color:#011729;
+  background-color:#011729ea;
   color: white;
   height: 200px;
 }
