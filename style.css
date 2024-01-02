@@ -307,6 +307,40 @@ html, body {
 
 }
 
+.topnav {
+  display: flex;
+}
+
+#header-section-logo {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#fb-nav-icon {
+  padding-right: 20px;
+}
+
+#header-section-social {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  
+}
+
+#footer-section-social {
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+#modal-footer {
+  flex-wrap: nowrap!important;
+}
+
 
 .main-btn {
   width: 150px;
@@ -642,14 +676,14 @@ footer {
 }
 
 .a-class {
-  width: 40%;
+  width: 50%;
  
 }
 
 .topnav {
   display: block;
   width: 100%;
-  color:white;
+  color: #011729ea;
   overflow: hidden;
   background-color: white;
   position: relative;
