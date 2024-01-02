@@ -308,7 +308,7 @@ html, body {
 }
 
 .topnav {
-  display: flex;
+  display: none;
 }
 
 #header-section-logo {
