@@ -13,7 +13,7 @@ html, body {
 }
 
 
-/* .card-deck2, */
+
 .topnav {
   display: none;
 }
@@ -592,7 +592,8 @@ footer {
 @media only screen and (max-width: 1120px) and (min-width: 961px) {
   
 
-  .annoying-header-btn-div
+  .annoying-header-btn-div,
+  .topnav
    {
     display: none;
   }
