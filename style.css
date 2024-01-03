@@ -317,8 +317,8 @@ html, body {
   flex-wrap: nowrap;
 }
 
-/* #fb-nav-icon {
-  padding-right: 20px;
+/* #fb-nav-icon a {
+  padding: none !important;
 } */
 
 #header-section-social {
@@ -333,6 +333,7 @@ html, body {
 #footer-section-social {
   width: 80%;
   display: flex;
+  align-items: center;
   gap: 20px;
   padding-left: 20px;
 }
@@ -698,8 +699,15 @@ footer {
   z-index: 10;
 }
 
+.topnav #myLinks a {
+  padding: 10px;
+  background-color: white;
+  display: block;
+  text-decoration: none;
+}
 
-.topnav a {
+
+.topnav #icon {
   color:black;
   background-color: white;
   padding: 10px;
@@ -709,13 +717,14 @@ footer {
   
 }
 
-.topnav a.icon {
+.topnav a #icon {
   background-color: white;
   display: block;
   /* position: absolute; */
   right: 0;
   top: 0;
 }
+
 
 .active {
   background-color:#011729ea;
