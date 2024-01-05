@@ -645,13 +645,16 @@ footer {
 
 @media screen and ( max-width: 960px) {
 
+  #header-section-logo{
+    padding: 10px;
+  }
+  
   .hero {
     box-shadow: none;
     background-position: center center; 
     background-size: cover; 
     height: 36vh;
   }
-
 
 
   .hero_text {
