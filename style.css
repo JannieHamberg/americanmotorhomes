@@ -589,6 +589,18 @@ footer {
 
 }
 
+@media only screen and (max-width: 1180px) and (min-width: 961px) { 
+  .hero {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1180px) { 
+  .hero {
+    height: 85vh;
+  }
+}
+
 
 @media only screen and (max-width: 1120px) and (min-width: 961px) {
   
