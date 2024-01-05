@@ -244,6 +244,10 @@ html, body {
 
 
 /* cards*/
+.btn-custom {
+  background-color: #011729ea;
+  color: white;
+}
 
 .card-deck {
     display: flex;
