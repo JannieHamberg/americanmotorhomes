@@ -695,6 +695,7 @@ footer {
   width: 100%;
   margin-top: 2%;
   cursor: none;
+  padding-top: 4%;
 }
 
 .main-img-1.zoom {
@@ -773,6 +774,10 @@ footer {
   height: 100%;
   object-fit: contain; 
   margin: 0 auto; 
+}
+
+footer {
+  margin-top: 10%;
 }
 
 }
