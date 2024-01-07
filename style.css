@@ -246,9 +246,9 @@ animation: fading 20s infinite;
 
 
 /* cards*/
-.btn-custom {
-  background-color: #011729ea;
-  color: white;
+#custom .btn-custom {
+  background-color: #011729ea !important;
+  color: white !important;
 }
 
 .card-deck {
