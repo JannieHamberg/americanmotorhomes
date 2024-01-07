@@ -669,6 +669,7 @@ footer {
     background-position: center center; 
     background-size: cover; 
     height: 36vh;
+    margin-top: 18%;
   }
 
 
@@ -722,7 +723,10 @@ footer {
   width: 100%;
   color: #011729ea;
   background-color: white;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .topnav #myLinks {
